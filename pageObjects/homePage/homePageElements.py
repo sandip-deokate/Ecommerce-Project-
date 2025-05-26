@@ -14,6 +14,11 @@ class HomePageElements:
     header_bom_tool_link = (By.XPATH,"//div[@class='mega-wrapper Content']/ul[@class='megamenu Content']/li[@data-gtm-label='BOM Tool']//a[@href='/en/bom-page']")
 
     # Access the elements
+    logout_link=(By.XPATH,"(//ul[@class='ButtonList']/li/button)[1]") #(//ul[@class='ButtonList']/li/button)[1]
+
+    my_account_link=(By.XPATH,"(//div[@title='My Account'])[1]")
+
+
 
     def get_accept_term_button(self):
         return self.driver.find_element(*self.accept_term)
@@ -26,4 +31,11 @@ class HomePageElements:
 
     def get_header_bom_tool_link(self):
         return self.driver.find_element(*self.header_bom_tool_link)
+
+    def get_logout_link(self):
+        return self.driver.find_element(*self.logout_link)
+
+    def get_my_account_link(self):
+        return self.driver.find_element(*self.my_account_link)
+
 

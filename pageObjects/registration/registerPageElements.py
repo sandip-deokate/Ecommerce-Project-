@@ -28,9 +28,6 @@ class registerPageElements():
     def get_txt_email(self):
         return self.driver.find_element(*self.txt_email)
 
-    def get_txt_password(self):
-        return self.driver.find_element(*self.txt_password)
-
     def get_chk_privacyPolicy(self):
         return self.driver.find_element(*self.chk_privacyPolicy)
 
@@ -40,8 +37,4 @@ class registerPageElements():
     def get_str_AccountHasBeenCreated(self):
         return  self.driver.find_element(*self.str_AccountHasBeenCreated)
 
-    def get_username(self):
-        return self.driver.find_element(*self.txt_username)
 
-    def get_btn_login(self):
-        return self.driver.find_element(*self.btn_login)

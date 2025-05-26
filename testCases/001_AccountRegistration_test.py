@@ -4,7 +4,7 @@ import pytest
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from pageObjects.homePage.homePageHelpers import homePageHelpers
-from pageObjects.registration.registrationPageHelpers import registrationPageHelpers
+from pageObjects.loginPage.loginPageHelpers import loginPageHelpers
 
 class Test_001_AccountRegistration:
 
@@ -15,16 +15,17 @@ class Test_001_AccountRegistration:
         self.logger = LogGen.loggen()
         self.logger.info("********  Test_001_AccountRegistratio started  **********")
         home_page = homePageHelpers(driver)
-        registration_page = registrationPageHelpers(driver)
+        login_page = loginPageHelpers(driver)
 
         """home_page.click_my_account_dropdown()
         home_page.click_register_link()
         registration_page.submit_Registration_From()"""
+
         time.sleep(5)
         home_page.click_accept_term_button()
         home_page.click_login_link()
 
-        #registration_page.login()
+        login_page.submit_login_using_conf()
         welcome_name= home_page.get_hello_str()
         if welcome_name == "Hello San":
             assert True

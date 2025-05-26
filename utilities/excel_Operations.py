@@ -1,4 +1,3 @@
-from multiprocessing.pool import worker
 
 import openpyxl
 import os
@@ -28,7 +27,7 @@ class ExcelOperations:
         return sheet.cell(row,col).value
 
     def write_Data(self,path,sheetname,row,col,data):
-        workbook=openpyxl.load_workbook(row,col)
+        workbook=openpyxl.load_workbook(path)
         sheet=workbook[sheetname]
         sheet.cell(row,col).value=data
         workbook.save(path)

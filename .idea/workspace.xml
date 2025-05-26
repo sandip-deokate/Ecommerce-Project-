@@ -5,44 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca428c7a-0405-4efd-86a4-1836e16857b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Multiple_Ecommerce_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configurations/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configurations/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/BomToolPage/bomToolPageElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/BomToolPage/bomToolPageHelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/homePage/homePageElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/homePage/homePageHelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/registration/registerPageElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageObjects/registration/registrationPageHelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/05-05-2025 11-28-27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/05-05-2025 11-33-36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/05-05-2025 11-33-52.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/05-05-2025 11-34-37.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/28-04-2025 23-12-36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/001AccountRegistration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/001_AccountRegistration_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/002_BOM_upload_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/003_Login_DDT_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/BomShort.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/Login_DDT.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/excel_Operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/randomDataGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/readProperties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/webDriverCommonMethods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObjects/loginPage/loginPageElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObjects/loginPage/loginPageHelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/homePage/homePageElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/homePage/homePageElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/homePage/homePageHelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/homePage/homePageHelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/registration/registerPageElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/registration/registerPageElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/registration/registrationPageHelpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/registration/registrationPageHelpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/05-05-2025 11-28-27.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/05-05-2025 11-33-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/05-05-2025 11-33-52.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/05-05-2025 11-34-37.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/28-04-2025 23-12-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/001AccountRegistration.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/001AccountRegistration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/001_AccountRegistration_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/001_AccountRegistration_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/002_BOM_upload_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/002_BOM_upload_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/003_Login_DDT_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/003_Login_DDT_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/Login_DDT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/Login_DDT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/excel_Operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/excel_Operations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,25 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for 001_AccountRegistration_test.Test_001_AccountRegistration.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for 002_BOM_upload_test.Test_BOM_Upload.test_002_bom_upload.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in 001_AccountRegistration_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Udemy courses/Ecommerce&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24390244&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for 001_AccountRegistration_test.Test_001_AccountRegistration.executor": "Debug",
+    "Python tests.Python tests for 002_BOM_upload_test.Test_BOM_Upload.test_002_bom_upload.executor": "Debug",
+    "Python tests.Python tests in 001_AccountRegistration_test.py.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ToolWindow.Version Control.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Udemy courses/Ecommerce",
+    "settings.editor.selected.configurable": "IntelliLang.Configuration",
+    "settings.editor.splitter.proportion": "0.24390244"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Udemy courses\Ecommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for 002_BOM_upload_test.Test_BOM_Upload.test_002_bom_upload">
+  <component name="RunManager" selected="Python tests.Python tests in 001_AccountRegistration_test.py">
     <configuration name="Python tests for 001_AccountRegistration_test.Test_001_AccountRegistration" type="tests" factoryName="Autodetect" temporary="true">
       <module name="Multiple_Ecommerce_Project" />
       <option name="ENV_FILES" value="" />
@@ -105,7 +87,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for 002_BOM_upload_test.Test_BOM_Upload.test_002_bom_upload" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for 002_BOM_upload_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Multiple_Ecommerce_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,9 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for 002_BOM_upload_test.Test_BOM_Upload.test_002_bom_upload" />
-        <item itemvalue="Python tests.Python tests for 001_AccountRegistration_test.Test_001_AccountRegistration" />
         <item itemvalue="Python tests.Python tests in 001_AccountRegistration_test.py" />
+        <item itemvalue="Python tests.Python tests for 001_AccountRegistration_test.Test_001_AccountRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +141,62 @@
       <updated>1743014719481</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="0b72dfa4-bbd7-4afb-baf8-8b6af2807a80" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="0b72dfa4-bbd7-4afb-baf8-8b6af2807a80">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="CURRENT_BRANCH" value="true" />
+                  <entry key="MERGE_COMMITS" value="true" />
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
